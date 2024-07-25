@@ -1,22 +1,47 @@
-<html lang="fr">
+<!doctype html>
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GeometriSpace</title>
-    <link rel="preload" as="font" href="/assets/zorque-Dzoklh-L.ttf" type="font/ttf" crossorigin="anonymous">
+    <link rel="preload" as="font" href="./assets/zorque.ttf" type="font/ttf" crossorigin="anonymous">
     <style>
         @font-face {
             font-family: 'zorque';
-            src: url('/assets/zorque-Dzoklh-L.ttf') format('truetype');
+            src: url('./assets/zorque.ttf') format('truetype');
             font-weight: normal;
             font-style: normal;
-            font-display: swap; /* Optionnel, pour améliorer l'affichage de la police */
+            font-display: swap;
+            /* Optionnel, pour améliorer l'affichage de la police */
         }
 
         body {
-            font-family: 'zorque', sans-serif; /* Appliquer la police au corps du document */
+            margin: 0px;
+            padding: 0px;
+            font-family: 'zorque', sans-serif;
+            /* Appliquer la police au corps du document */
+        }
+
+        html {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #phaser-container {
+            position: fixed;
+            top: 0px;
         }
     </style>
-  <script type="module" crossorigin src="/assets/index-Fa8x_5Ys.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-D--mM-a_.css">
+  <script type="module" crossorigin src="./assets/index-tBvO7SaJ.js"></script>
 </head>
+
+<body>
+    <div id="app">
+        <div id="phaser-container">
+
+        </div>
+    </div>
+</body>
+
+</html>
